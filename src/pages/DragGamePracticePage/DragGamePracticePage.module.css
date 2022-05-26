@@ -1,0 +1,7 @@
+ion-phaser canvas {
+  position: absolute;
+  top: 3rem;
+  width: 100vw;
+  height: 55rem;
+  z-index: 99999;
+}
