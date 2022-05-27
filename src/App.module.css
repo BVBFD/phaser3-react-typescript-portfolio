@@ -19,11 +19,48 @@
 
 .appBox .appMainBox .imgBox {
   height: 26rem;
-  background-color: red;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.appBox .appMainBox .imgBox::before {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  content: 'Open It!!';
+  color: white;
+  z-index: 99;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.appBox .appMainBox .imgBox:hover img {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.appBox .appMainBox .imgBox:hover::before {
+  color: darkorange;
+  transform: scale(1.2);
+}
+
+.appBox .appMainBox .imgBox:active img {
+  width: 90%;
+  height: 90%;
+  opacity: 0.9;
+}
+
+.appBox .appMainBox .imgBox:active::before {
+  color: white;
+  transform: scale(1);
 }
 
 .appBox .appMainBox .imgBox img {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
+  opacity: 0.9;
+  border: 0.4rem solid darkorange;
 }

@@ -1,7 +1,8 @@
 ion-phaser canvas {
   position: absolute;
   top: 3rem;
-  width: 100vw;
-  height: 55rem;
+  object-fit: contain;
+  height: 54.6rem;
   z-index: 99999;
+  background-color: navy;
 }
