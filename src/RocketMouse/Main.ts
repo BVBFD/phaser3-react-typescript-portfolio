@@ -17,5 +17,3 @@ export const config: Phaser.Types.Core.GameConfig = {
   },
   scene: [Preloader2, Game2, GameOver2],
 }
-
-// export default new Phaser.Game(config)

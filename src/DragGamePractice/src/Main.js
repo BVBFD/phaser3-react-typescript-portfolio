@@ -14,5 +14,3 @@ export const config = {
     },
   },
 }
-
-// export default new Phaser.Game(config)

@@ -1,7 +1,15 @@
-ion-phaser canvas {
+.IonPhaserBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: navy;
+}
+
+.IonPhaserBox canvas {
   position: absolute;
-  top: 3rem;
-  width: 100vw;
-  height: 54.6rem;
+  top: 15rem;
+  left: 25%;
+  width: fit-content;
+  height: fit-content;
   z-index: 99999;
 }
