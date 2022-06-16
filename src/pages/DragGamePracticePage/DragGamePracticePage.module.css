@@ -1,15 +1,19 @@
 .IonPhaserBox {
+  width: 100vw;
+  height: calc(100vh);
   position: relative;
-  width: 100%;
-  height: 100%;
-  background-color: navy;
 }
 
-.IonPhaserBox canvas {
-  position: absolute;
-  top: 22%;
-  left: 23%;
+.IonPhaserBox ion-phaser {
+  height: calc(100vh);
+  background-color: navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.IonPhaserBox ion-phaser canvas {
   width: fit-content;
   height: fit-content;
-  z-index: 99999;
+  height: calc(100vh - 6rem);
 }
